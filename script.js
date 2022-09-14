@@ -1,4 +1,6 @@
 const btnLogin = document.querySelector('#btn-login');
+const btnSubmit = document.querySelector('#submit-btn');
+const inputAgreement = document.querySelector('#agreement');
 
 function validationLogin() {
   const emailLogin = document.querySelector('#email-login');
@@ -11,3 +13,11 @@ function validationLogin() {
 }
 
 btnLogin.addEventListener('click', validationLogin);
+
+btnSubmit.disabled = true;
+
+inputAgreement.addEventListener('change', () => {
+  if (inputAgreement.checked) {
+    btnSubmit.disabled = false;
+  }
+});
