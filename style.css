@@ -44,3 +44,8 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#evaluation-form input {
+  padding: 5px;
+  border-radius: 5px;
+}
