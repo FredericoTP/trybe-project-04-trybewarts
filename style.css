@@ -74,12 +74,12 @@ main {
   justify-content: space-between;
 }
 
-#comment-container {
+#textarea-container {
   display: flex;
   flex-direction: column;
 }
 
-#comment {
+#textarea {
   resize: none;
   font-size: 20px;
 }
