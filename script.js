@@ -6,7 +6,7 @@ function validationLogin() {
   if (emailLogin.value === 'tryber@teste.com' && senhaLogin.value === '123456') {
     alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos');
+    alert('Email ou senha inválidos.');
   }
 }
 
