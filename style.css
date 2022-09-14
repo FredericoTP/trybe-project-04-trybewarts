@@ -68,3 +68,8 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+#evaluator-container {
+  display: flex;
+  justify-content: space-between;
+}
