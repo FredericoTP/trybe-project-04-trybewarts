@@ -8,4 +8,21 @@
   background-color: rgb(50, 167, 145);
   height: 70px;
   display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  margin: 5px 10px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  align-items: center;
+}
+
+.trybewarts-login input {
+  padding: 5px;
+  border-radius: 8px;
 }
