@@ -83,3 +83,7 @@ main {
   resize: none;
   font-size: 20px;
 }
+
+#label-infos {
+  font-weight: 900;
+}
