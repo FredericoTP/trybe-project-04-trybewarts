@@ -95,3 +95,7 @@ main {
   color: white;
   border-radius: 5px;
 }
+
+#form-data {
+  display: none;
+}
