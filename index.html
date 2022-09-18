@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trybewarts</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,13 +27,13 @@
 
   <main>
     <form action="" id="evaluation-form">
-      <div>
+      <div id="evaluation-form-name">
         <label for="input-name">Nome:</label>
         <input type="text" id="input-name" name="input-name" placeholder="Nome">
         <input type="text" id="input-lastname" name="input-lastname" placeholder="Sobrenome">
       </div>
 
-      <div>
+      <div id="evaluation-form-email-house">
         <label for="input-email">Email:</label>
         <input type="email" id="input-email" name="input-email" placeholder="Email">
         <label for="house">Escolha sua casa:</label>
@@ -44,21 +48,21 @@
       <div id="radio-btn">
         <label for="" id="label-family">Qual sua família?</label>
         <div>
-          <label for="frontend">Frontend</label>
           <input type="radio" name="family" id="frontend" value="Frontend">
+          <label for="frontend">Frontend</label>
         </div>
         <div>
-          <label for="backend">Backend</label>
           <input type="radio" name="family" id="backend" value="Backend">
+          <label for="backend">Backend</label>
         </div>
         <div>
-          <label for="fullstack">Fullstack</label>
           <input type="radio" name="family" id="fullstack" value="FullStack">
+          <label for="fullstack">Fullstack</label>
         </div>
       </div>
 
-      <div>
-        <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+      <div id="checkbox-learn">
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <div id="list-container">
           <div>
             <input type="checkbox" class="subject" value="HoFs" id="hofs">
@@ -87,8 +91,8 @@
         </div>
       </div>
 
-      <div>
-        <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+      <div id="rate-content">
+        <label id="label-rate">Como você avalia a Trybewarts?</label>
         <div id="evaluator-container">
           <div>
             <input type="radio" value="1" name="rate" id="1" class="input-rate">
@@ -135,11 +139,11 @@
 
       <div id="textarea-container">
         <label for="textarea" class="textarea">Deixe seu comentário:</label>
-        <label id="counter">500</label>
         <textarea id="textarea" maxlength="500" cols="30" rows="10"></textarea>
+        <label id="counter">500</label>
       </div>
 
-      <div>
+      <div id="div-agreement">
         <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
         <input type="checkbox" id="agreement">
       </div>

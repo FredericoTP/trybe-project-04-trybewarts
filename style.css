@@ -25,14 +25,29 @@
 .trybewarts-login input {
   padding: 5px;
   border-radius: 8px;
+  border: 2px solid darkgreen;
 }
 
 #trybewarts-header-title {
   align-self: center;
+  font-family: Montserrat Alternates, sans-serif;
+  color: white;
+}
+
+#btn-login {
+  background-color: darkgreen;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-weight: 900;
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 main {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #evaluation-form {
@@ -41,6 +56,9 @@ main {
   flex-direction: column;
   font-size: 21px;
   padding: 45px;
+  border: 2px solid darkgreen;
+  margin: 40px 0;
+  border-radius: 8px;
 }
 
 #trybewarts-forms-logo {
@@ -50,6 +68,11 @@ main {
 #evaluation-form input {
   padding: 5px;
   border-radius: 5px;
+}
+
+#evaluation-form-name , #evaluation-form-email-house {
+  margin: 0 0 15px;
+  font-family: Montserrat, sans-serif;
 }
 
 #house {
@@ -62,6 +85,15 @@ main {
 #radio-btn {
   display: flex;
   flex-direction: column;
+  margin: 0 0 15px;
+}
+
+#label-family , #label-content , #label-rate , .textarea {
+  font-family: Montserrat, sans-serif;
+}
+
+#checkbox-learn , #rate-content , #div-agreement {
+  margin: 0 0 15px;
 }
 
 #list-container {
@@ -77,6 +109,7 @@ main {
 #textarea-container {
   display: flex;
   flex-direction: column;
+  margin: 0 0 15px;
 }
 
 #textarea {
@@ -86,16 +119,39 @@ main {
 
 #label-infos {
   font-weight: 900;
+  font-family: Montserrat, sans-serif;
+  background-color: darkgreen;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #submit-btn {
   align-self: flex-start;
   background-color: rgb(50, 167, 145);
-  padding: 10px;
+  padding: 8px 20px;
   color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: 2px solid darkgreen;
   border-radius: 5px;
 }
 
 #form-data {
   display: none;
+  line-height: 25px;
+  font-family: Montserrat, sans-serif;
+  border: 2px solid darkgreen;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1000px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
 }
