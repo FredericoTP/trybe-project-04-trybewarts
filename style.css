@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   height: 70px;
@@ -154,4 +161,8 @@ footer {
   color: white;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
+}
+
+#observacoesP {
+  word-wrap: break-word;
 }
