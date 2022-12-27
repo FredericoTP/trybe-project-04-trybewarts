@@ -64,7 +64,7 @@ main {
   font-size: 21px;
   padding: 45px;
   border: 2px solid darkgreen;
-  margin: 40px 0;
+  margin: 40px 15px;
   border-radius: 8px;
 }
 
@@ -165,4 +165,88 @@ footer {
 
 #observacoesP {
   word-wrap: break-word;
+}
+
+#image-form {
+  width: 20%;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1120px) {
+  #evaluation-form-name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #evaluation-form-email-house {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #evaluation-form-email-house label, #evaluation-form-email-house input {
+    margin: 0 0 5px;
+  }
+
+  #form-data {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 120px;
+  }
+
+  .header img {
+    margin: 5px 10px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #image-form {
+    width: 200px;
+    margin: 0 0 10px;
+  }
+
+  #evaluation-form {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 45px;
+    border: 2px solid darkgreen;
+    margin: 40px 15px;
+    border-radius: 8px;
+  }
+
+  #input-name, #input-lastname {
+    width: 30%;
+  }
+
+  #email-login, #senha-login {
+    width: 30%;
+  }
+
+  #list-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #div-agreement {
+    display: flex;
+  }
+
+  #agreement {
+    margin: 0 0 0 5px;
+  }
 }
