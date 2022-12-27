@@ -310,6 +310,8 @@ O rodapé deverá conter a tag <code>footer</code> e texto <strong>"Direitos res
 
 ## 100% :heavy_check_mark:
 
+![Project-Trybewarts-Grade](https://github.com/FredericoTP/trybe-project-04-trybewarts/blob/main/images/trybewarts-grade.png?raw=true)
+
 <br />
 
 ## 3- Preview
