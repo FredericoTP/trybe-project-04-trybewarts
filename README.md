@@ -7,7 +7,7 @@ Nesse projeto foi desenvolvida uma página de formulário da Escola de Magia de 
 O projeto foi desenvolvido em dupla por:
 Frederico Tavares e Túlio Tófani
 
-# Acesse o projeto clicando [aqui]()! :green_heart:
+# Acesse o projeto clicando [aqui](https://fredericotp.github.io/trybe-project-04-trybewarts/)! :green_heart:
 
 <br />
 
@@ -315,3 +315,5 @@ O rodapé deverá conter a tag <code>footer</code> e texto <strong>"Direitos res
 <br />
 
 ## 3- Preview
+
+![Project-Trybewarts-Preview](https://github.com/FredericoTP/trybe-project-04-trybewarts/blob/main/images/trybewarts-preview.png?raw=true)
