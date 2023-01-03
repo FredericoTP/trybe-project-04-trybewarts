@@ -314,4 +314,4 @@ O rodapé deverá conter a tag <code>footer</code> e texto <strong>"Direitos res
 
 ## 3- Preview
 
-![Project-Trybewarts-Preview](https://github.com/FredericoTP/trybe-project-04-trybewarts/blob/main/images/trybewarts-preview.png?raw=true)
+![Project-Trybewarts-Preview](https://github.com/FredericoTP/trybe-project-04-trybewarts/blob/main/images/preview-trybewarts.png?raw=true)
