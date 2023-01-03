@@ -27,6 +27,7 @@ body {
   justify-content: space-around;
   width: 500px;
   align-items: center;
+  margin: 0 5px;
 }
 
 .trybewarts-login input {
