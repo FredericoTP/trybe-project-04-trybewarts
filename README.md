@@ -1,5 +1,3 @@
-# :construction: README em construção ! :construction:
-
 # :computer: Trybe-04-Project-Trybewarts :computer:
 
 Nesse projeto foi desenvolvida uma página de formulário da Escola de Magia de Trybewarts, onde as pessoas estudantes podem enviar seus feedbacks sobre a escola.
